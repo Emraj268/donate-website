@@ -1,0 +1,116 @@
+
+.help{
+    
+  text-align: center;
+  background-image: url(donation13.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  /* margin-bottom: 30px; */
+padding:200px ;
+}
+.need{
+    color: white;
+}
+.donate-button{
+    background-image: linear-gradient(red, yellow);
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+.taka{
+    display: flex;
+    /* text-align: center; */
+    margin-left: 40px;
+
+}
+.money{
+    padding: 40px;
+    background-color:gray;
+    margin: 50px;
+    
+}
+.tap{
+    border: 5px solid rgba(154, 22, 158, 0.989);
+    background-color: white;
+    color: rgb(34, 122, 46);
+
+}
+.Amount{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.donate-plan{
+    text-align: center;
+}
+.plan{
+    display: flex;
+  
+}
+#plan-one{
+    background-color: cadetblue;
+    margin-left: 10px;
+    padding: 5px;
+}
+#plan-two{
+    background-color: burlywood;
+    margin-left: 10px;
+    padding: 5px;
+}
+#plan-three
+{
+    background-color: darkseagreen;
+    margin-left: 10px;
+    padding: 5px;
+}
+.new{
+    background-image: linear-gradient(red, yellow);
+    padding: 5px;
+   margin: 20px;
+    text-decoration: none;
+}
+.contribute{
+  background-image: linear-gradient(pink,violet);
+  text-decoration: none;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.photo{
+    margin-top: 20px;
+    width:100%;
+}
+.depend{
+    display: flex;
+}
+.survive{
+    display: flex;
+}
+.pic{
+    margin-top: 20px;
+    width:90%;
+
+}
+.last-button{
+    background-image: linear-gradient(pink,violet);
+  text-decoration: none;
+  padding: 5px;
+}
+.mail{
+    background-color: antiquewhite;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 60px;
+}
+.updates{
+    text-align: center;
+}
+.finally{
+    text-align: center;
+    background-color: black;
+}
+#do{
+    color: rgb(210, 18, 120);
+}
+#did{
+    color: white;
+}

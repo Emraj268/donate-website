@@ -142,6 +142,8 @@ padding:200px ;
 .updates{
     text-align: center;
 }
+
+
 .finally{
     margin-top: 30px;
     text-align: center;
@@ -149,6 +151,11 @@ padding:200px ;
     padding:10px;
    
 }
+.main-contact{
+    text-align: center;
+    margin-top: 20px;
+}
+
 span{
     color:orangered;
     font-size: 40px;

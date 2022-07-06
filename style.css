@@ -1,5 +1,10 @@
+.container-box{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .help{
-    
   text-align: center;
   background-image: url(donation13.jpg);
   background-repeat: no-repeat;
@@ -9,13 +14,17 @@ padding:200px ;
 }
 .need{
     color: white;
+    font-size: 22px;
 }
 .donate-button{
-    background-image: linear-gradient(red, yellow);
+    
+    background-image: linear-gradient(orangered, orange);
     padding: 8px 15px;
     text-decoration: none;
     border-radius: 5px;
-    margin-top: 40px;
+    margin-top:100px;
+    color:#fff;
+    
 }
 .taka{
     display: flex;
@@ -25,19 +34,28 @@ padding:200px ;
 }
 .money{
     padding: 40px;
-    background-color:gray;
+    background-color:rgb(18, 170, 181);
     margin: 50px;
+    border-radius: 5px;
     
 }
 .tap{
     border: 5px solid rgba(154, 22, 158, 0.989);
     background-color: white;
     color: rgb(34, 122, 46);
-
+    border-radius: 5px;
+    
 }
 .Amount{
     text-align: center;
     margin-bottom: 40px;
+}
+#quantity{
+    border:none;
+    padding:10px 150px;
+    /* background-color:rgba(212, 212, 212, 0.174); */
+    border-bottom: 1px solid rgb(190, 190, 190);
+    
 }
 .donate-plan{
     text-align: center;
@@ -62,17 +80,22 @@ padding:200px ;
     margin-left: 10px;
     padding: 5px;
 }
+.distribution-box{
+    margin: 40px 60px;
+}
 .new{
-    background-image: linear-gradient(red, yellow);
-    padding: 5px;
-   margin: 20px;
+    background-image: linear-gradient(orangered, red);
+    padding: 12px 20px;
+   /* margin: 20px; */
     text-decoration: none;
+    border-radius: 5px;
 }
 .contribute{
   background-image: linear-gradient(pink,violet);
   text-decoration: none;
-  padding: 5px;
+  padding: 8px;
   margin-bottom: 20px;
+  border-radius: 5px;
 }
 .photo{
     margin-top: 20px;
@@ -80,19 +103,35 @@ padding:200px ;
 }
 .depend{
     display: flex;
+    margin: 50px 0px;
+}
+.depend2{
+    text-align: left;
+    margin: 30px 60px;
 }
 .survive{
     display: flex;
+    margin: 50px 0px;
 }
+.survive2{
+    text-align: left;
+    /* margin: 30px 60px; */
+}   
 .pic{
+
+    margin-left: 30px;
     margin-top: 20px;
-    width:90%;
+    width:80%;
 
 }
 .last-button{
-    background-image: linear-gradient(pink,violet);
+    background-image: linear-gradient(rgb(246, 6, 6),rgb(215, 14, 14));
+    color: white;
   text-decoration: none;
-  padding: 5px;
+  padding:8px 15px;
+  border-radius: 2px;
+  margin-left: -2px;
+  /* margin-bottom: -2px; */
 }
 .mail{
     background-color: antiquewhite;
@@ -104,15 +143,25 @@ padding:200px ;
     text-align: center;
 }
 .finally{
+    margin-top: 30px;
     text-align: center;
     background-color: black;
+    padding:10px;
    
 }
-#do{
-    color: rgb(210, 18, 120);
-    
+span{
+    color:orangered;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
 }
+
 #did{
     color: white;
+    font-family: 'Poppins', sans-serif;
 }
-font-family: 'Poppins', sans-serif;
+
+#quantity2{
+    border:none;
+    padding:10px 20px;
+
+}
